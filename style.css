@@ -1,0 +1,74 @@
+*
+{
+  background-color: #C4DFE6;
+  margin: 0;
+  padding: 0;
+}
+.Level
+{
+  position: absolute;
+  padding: 1em;
+  margin: 1em;
+  align:center;
+  display: flex;
+  justify-content: center;
+}
+.StartMsg
+{
+  left:50%;
+}
+.card
+{
+  display:grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+  margin-right: 1.5em;
+  padding: 1em;
+  width: 800px;
+  margin-top: 6em;
+}
+.content
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.button
+{
+  border-radius: 5%;
+  border-color: black;
+  border-width: 3px;
+  margin: 0.5em;
+  padding: 1em;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+}
+.go
+{
+  display: flex;
+  justify-content: center;
+}
+.button1
+{
+  height: 30px;
+  width: 100px;
+}
+
+img
+{
+  position: absolute;
+}
+strong
+{
+  background-color: #66A5AD;
+}
+.hello
+{
+  position: absolute;
+  font-size: 5em;
+  left:42%;
+  margin-top: 0.2em;
+}
